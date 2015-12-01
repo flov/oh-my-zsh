@@ -106,3 +106,7 @@ if [ ! "$ZSH_THEME" = ""  ]; then
     source "$ZSH/themes/$ZSH_THEME.zsh-theme"
   fi
 fi
+
+setopt CSH_NULL_GLOB
+unsetopt correct
+
